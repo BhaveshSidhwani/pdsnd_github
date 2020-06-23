@@ -12,7 +12,9 @@ Over the past decade, bicycle-sharing systems have been growing in number and po
 In this project, I will use of Python to explore data related to bike share systems for three major cities in the United States i.e. Chicago, New York City, and Washington. And use python to read csv files into Pandas dataframe and analyze the data to answer business questions about it by computing descriptive statistics as well as write script that takes in raw input to create an interactive experience in the terminal to present these statistics.
 
 ### Files used
-Include the files used
+- chicago.csv
+- new_york_city.csv
+- washington.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
