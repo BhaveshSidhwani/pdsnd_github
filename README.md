@@ -18,4 +18,4 @@ In this project, I will use of Python to explore data related to bike share syst
 
 ### Credits
 - Data used from [Motivate](https://www.motivateco.com/)
-- [Udacity Git Commit Message Style Guide]([https://udacity.github.io/git-styleguide/](https://udacity.github.io/git-styleguide/))
+- [Udacity Git Commit Message Style Guide](https://udacity.github.io/git-styleguide/)
