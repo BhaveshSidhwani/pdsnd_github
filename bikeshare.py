@@ -2,6 +2,11 @@ import time
 import pandas as pd
 import numpy as np
 
+#Source data file
+#chicago.csv contains data for Chicago city
+#new_york_city.csv contains data for New York city
+#washington.csv contains data for Washington city
+
 CITY_DATA = { 'chicago': 'chicago.csv',
 			  'new york city': 'new_york_city.csv',
 			  'washington': 'washington.csv' }
@@ -185,6 +190,7 @@ def user_stats(df):
 
 
 def raw_data(df):
+	"""Displays a set of next 5 rows until the user inputs 'no'."""
 	choice = input("\nWould you like to view the first 5 rows? Enter yes or no.\n>")
 	start, end = 0, 5
 	while choice.lower() == "yes":
