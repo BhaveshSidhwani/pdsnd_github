@@ -190,6 +190,13 @@ def raw_data(df):
 	choice = input("\nWould you like to view the first 5 rows? Enter yes or no.\n>")
 	start, end = 0, 5
 	while choice.lower() == "yes":
+		if end > df.shape[0]:
+			if start > df.shape[0]:
+				print("\nNo more data Available.\n")
+			else:
+				print(df[start:df.shape[0]])
+			break
+
 		print(df[start:end])
 		choice = input("\nWould you like to view the next 5 rows? Enter yes or no.\n>")
 		start, end = end, end+5
